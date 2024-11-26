@@ -7,8 +7,8 @@ import bootstrap from './src/main.server';
 import { Sequelize, DataTypes } from 'sequelize';
 
 // Database Configuration
-const sequelize = new Sequelize('epiz_28266684_custinfo', 'epiz_28266684', '7IvmExQmX3C', {
-  host: 'sql302.infinityfree.com',
+const sequelize = new Sequelize('epiz_28266684_custinfo', 'epiz_28266684', 'Hdfc@5250', {
+  host: 'localhost',
   dialect: 'mysql',
 });
 
